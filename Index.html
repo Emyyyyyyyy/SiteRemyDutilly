@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Remy Dutilly CV">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" alt="logo de Remy Dutilly" href="img/icon.svg">
+	<title>Remy Dutilly</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/articles.css">
+	<link rel="stylesheet" href="css/popup.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<script src='jquery-3.6.1.min.js'></script>
+</head>
+
+<body style="background-image: url('Img/bg.jpg');">
+	<div class="header">
+		<div class="container">
+			<div class="header_navbar">
+				<div class="header_navbar_logo">
+					<img src="img/Logo_Dutilly_Remy.svg" alt="logo de Remy Dutilly" class="header_navbar_logo_img">
+					<a href="Index.html" class="header_navbar_logo_title">R&eacutemy Dutilly</a>
+				</div>
+				<div class="header_navbar_menu">
+					<a href="Index.html" class="header_navbar_menu_link_principal">Acceuil</a>
+					<a href="ChefDeProjet.html" class="header_navbar_menu_link">Chef de projet</a>
+					<a href="GameDesigner.html" class="header_navbar_menu_link">Game Designer</a>
+					<a href="Graphiste.html" class="header_navbar_menu_link">Graphiste 2D/3D</a>
+					<a href="Developpeur.html" class="header_navbar_menu_link">Developpeur</a>
+					<a href="Hobbies.html" class="header_navbar_menu_link">Hobbies</a>
+					<a href="Contact.html" class="header_navbar_menu_link">Contact</a>
+				</div>
+				<div class="header_navbar_toggle">
+					<span class="header_navbar_toggle_icons"></span>
+					<script src="Script.js" charset="utf-8"></script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="container">
+		<div class="card-wrapper">
+			<div class="card">
+				<h1>Bonjour</h1>
+				<img src="./Img/profil.jpg" alt="une photo de Remy Dutilly" title="Rémy Dutilly him-self" class="card-img">
+				<p>
+				Comme vous avez pu le deviner je m'appelle Rémy Dutilly, j'ai une trentaine d'années, je suis pacsé, et j'ai deux enfants.<br>
+				Je travaille actuellement dans le milieu de l'escape game depuis sa création, il y a 8 ans.<br> 
+				Avant cela, je travaillais dans le milieu audio-visuel, avec en cours de parcours une petite dérivation dans le milieu de l'enseignement.<br>
+				J'espère que ce site vous permettra de mieux me connaitre, à bientôt!
+				</p>
+				<a href="./Img/Affiche.jpg" target="_blank">Télécharger mon CV</a>
+			</div>
+			<div class="card">
+				<h1>Expérience professionnelle</h1>
+				<img src="./Img/WorkExperience.jpg" alt="Experience professionnelle" title="Description de l'image" class="card-img">
+				<p style="line-height:1.8rem">
+					<b>CHEF DE PROJET</b>: Get Out<i><small> - Lille (2015-2022)</small></i><br>
+					<b>ENSEIGNANT</b>: CCA<i><small> - La Madeleine (2014-2015)</small></i><br>
+					<b>DESIGNER</b>: Ludeno<i><small> - Wavrin (2013-2014)</small></i><br>
+					<b>GERANT</b>: Avia<i><small> - Villeneuve d’Ascq (2013-2012)</small></i><br>
+					<b>VIDEASTE</b>: Design Mania<i><small> - Paris (2011-2012)</small></i><br>
+					<b>MANUTENTION</b>: Cristaline<i><small> - Pérenchies (2007)</small></i><br>
+				</p>
+				<a href="#popup_experience_pro" class="button">En savoir plus</a>
+			</div>
+			<div class="card">
+				<h1>Formation</h1>
+				<img src="./Img/Formation.jpg" alt="Formation" title="Description de l'image" class="card-img">
+				<p style="line-height:1.8rem">
+					<b>STAGE ANIMATEUR 3D</b>: BUF<i><small> - Paris (2010)</small></i><br>
+					<b>LICENCE INFOGRAPH</b>: Pôle 3D<i><small> - Roubaix (2010)</small></i><br>
+					<b>STAGE GRAPHISTE</b>: Génome<i><small> - Roubaix (2009)</small></i><br>
+					<b>STAGE PAO</b>: CHR<i><small> - Roubaix (2008)</small></i><br>
+					<b>BAC STI Arts Appliqués</b>: ISV<i><small> - Loos (2007)</small></i><br>
+					<b>STAGE PAO</b>: Dourdin<i><small> - Saint André Lez Lille (2005)</small></i><br>
+					<b>BREVET</b>: Saint Marie<i><small> - Linselles (2004)</small></i><br>
+				</p>
+				<a href="#popup_formation" class="button">En savoir plus</a>
+			</div>
+		</div>
+	</section>
+
+	<div id="popup_experience_pro" class="popup_overlay">
+		<div class="popup_menu">
+			<a href="#" class="cross">&times;</a>
+			<h2>Expérience professionnel</h2>
+			<div class="popup-image-wrapper">
+			</div>
+			<p>
+				<b>CHEF DE PROJET</b>: Get Out - Lille (2015-2022)<br>
+				<i><small> Gestion de projet digital (jeux Outdoor/Indoor, jeu de société, application multiplateforme). Développeur, Game design, Création de support audiovisuel 2D/3D.</small></i><br>
+				<b>ENSEIGNANT</b>: CCA - La Madeleine (2014-2015)<br>
+				<i><small>responsable de la communication (affiches, flyers, mailing, site internet, dossier et communiqqué de presse). Gestion d’ateliers plastiques, de l’initiation (7 ans) à la préparation d’entrée aux écoles	artistiques (18 ans)</small></i><br>
+				<b>DESIGNER</b>: Ludeno - Wavrin (2013-2014)<br>
+				<i><small>créateur de décoration lumineuse pour la période de noël. Mise en page de catalogue, dessin industriel,	prospection, reportage photo.</small></i><br>
+				<b>GERANT</b>: Avia - Villeneuve d’Ascq (2013-2012)<br>
+				<i><small>Gérant de magasin. Gestion des stocks, du rayonnage, et de la caisse. Nettoyage et entretien du matériel.</small></i><br>
+				<b>VIDEASTE</b>: Design Mania - Paris (2011-2012)<br>
+				<i><small>Création de contenu multimédia pour Lego ou Panzani. Création de contenu en réalité augmentée et de site internet. Conception de logo, et de charte graphique.</small></i><br>
+				<b>MANUTENTION</b>: Cristaline<i><small> - Pérenchies (2007)</small></i><br>
+			</p>
+			<a href="#" class="button">RETOUR</a>
+		</div>
+	</div>
+	<div id="popup_formation" class="popup_overlay">
+		<div class="popup_menu">
+			<a href="#" class="cross">&times;</a>
+			<h2>Formation</h2>
+			<div class="popup-image-wrapper">
+			</div>
+			<p>
+				<b>STAGE ANIMATEUR 3D</b>: BUF - Paris (2010)<br>
+				<i><small>Réalisation d’un court métrage en 3D pour l’exposition Moebius à Paris. Modeling, texturing et animation des personnages. En collaboration avec l’auteur Moebius.</small></i><br>
+				<b>LICENCE INFOGRAPHIE</b>: Pôle 3D - Roubaix (2010)<br>
+				<i><small>Maitrise de la suite Adobe. Logiciels 3D: XSI, Maya, 3DS Max. Rendering, Modeling, Texturing, animation 2D/3D. Compositing de l’image et du son. Création d’un court métrage d’animation primé aux E.Magiciens.</small></i><br>
+				<b>STAGE ANIMATEUR 3D</b>: Génome - Roubaix (2009)<br>
+				<i><small>Réalisation de dessins animés jeunesse: Animation 3D et Texturing. Création d’un pilote: Modeling, Texturing, et propositions graphiques</small></i><br>
+				<b>STAGE PAO</b>: CHR -Roubaix (2008)<br>
+				<i><small>Gestion de l’intranet. Création graphique de divers évènements internes au CHR: reportage photo, logo, affiche, flyers</small></i><br>
+				<b>BAC STI Arts Appliqués</b>: ISV - Loos (2007)<br>
+				<i><small>Apprentissage de l’Histoire de l’Art et de l’architecture. Maitrise des différents outils graphiques papier en design objet et espace. Maitrise du dessin industriel.</small></i><br>
+				<b>STAGE PAO</b>: Dourdin - Saint André Lez Lille (2005)<br>
+				<i><small>Apprentissage de la chaîne de montage et de l’intégration de marque en équipement automobile.</small></i><br>
+				<b>BREVET</b>: Saint Marie -Linselles (2004)<br>
+			</p>
+			<a href="#" class="button">RETOUR</a>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="footer-content">
+			<p>copyright &copy; 2022 designed by R&eacutemy Dutilly</p>
+			<div class='footer_icons'>
+				<a href="https://www.linkedin.com/in/r%C3%A9my-dutilly-1a4a1b14b/" target="_blank"><img src="img/linkedin.svg" title="Voir mon profil LinkedIn" alt="Rejoignez moi"></a>
+				<a href="https://dutillyremy.wordpress.com/" target="_blank"><img src="img/site.svg" title="Voir mon portfolio" alt="Vous trouverez ici d'anciennes créations"></a>
+				<a href="https://www.youtube.com/user/angelusrem" target="_blank"><img style="padding:0.1rem" src="img/youtube.svg" title="Voir mon compte Youtube" alt="Ici vous trouverez d'anciennes créations vidéos'"></a>
+				<a href="mailto:dutillyremy@gmail.com" target="_blank"><img src="img/mail.svg" title="Contactez moi par mail" alt="Contactez moi par mail"></a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>

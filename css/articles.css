@@ -1,0 +1,120 @@
+.card a {
+	background-color: rgba(255,255,255,0.85);
+	color: black;
+	text-transform: uppercase;
+	padding: 0.7rem;
+	width: 70%;
+	display: block;
+	text-align: center;
+	margin: 1.5rem;
+	border-radius: 30rem;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 1.2em;
+	box-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.4);
+	transition: 0.3s;
+	font-family: 'Oswald';
+	font-weight: bold;
+	border-top: 0.15rem solid rgba(255,255,255,0.5);
+	border-left: 0.15rem solid rgba(255,255,255,0.5);
+	color: black;
+}
+	.card a:hover {
+		background-color: rgba(255,255,255,1);
+		transform: scale(1.05);
+		box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.5);
+	}
+.card h1, .card p {
+	text-align:center;
+	padding: 1rem;
+	color: white;
+}
+
+.card h1{
+	text-transform:uppercase;
+}
+
+.card p {
+	font-size: 0.9rem;
+	height: 15rem;
+	width: 90%;
+	overflow:visible;
+}
+
+section {
+	z-index:0;
+	padding: 1rem 0;
+}
+
+.card-wrapper {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+.card {
+	height: 40rem;
+	width: 21rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 2rem 0;
+	box-shadow: 0.6rem 0.6rem 0.6rem rgba(0,0,0,0.4);
+	border-radius: 1.5rem;
+	background: rgba(255,255,255,0.15);
+	backdrop-filter: blur(4px);
+	border-top: 0.1rem solid rgba(255,255,255,0.5);
+	border-left: 0.1rem solid rgba(255,255,255,0.5);
+	overflow: hidden;
+	transition: 0.3s;
+}
+
+.card-img {
+	padding: 0.11rem;
+	width: 15rem;
+	height: 15rem;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%;
+	box-shadow: -0.15rem 0.15rem 0.1rem rgba(255,255,255,0.5);
+	outline: 0.15rem solid rgba(0,0,30,0.3);
+	outline-offset: -0.15rem;
+}
+
+.card::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 19rem;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	transform: skewX(30deg) translateX(40rem);
+	transition: 0.5s;
+}
+
+.card:hover {
+	background: rgba(0,0,0,0.6);
+	-webkit-transform: scale(1.1);
+	backdrop-filter: none;
+	box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.8);
+}
+
+.card:hover::before {
+	transform: skewX(30deg) translateX(-40rem);
+}
+
+@media screen and (min-width: 700px) {
+	.card-wrapper {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.card {
+		margin: 2rem;
+	}
+}
