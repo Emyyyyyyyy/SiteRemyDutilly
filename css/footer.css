@@ -29,13 +29,12 @@ footer {
 .footer_icons img {
 	object-fit: cover;
 	object-position: center;
-	margin: 0.5rem 1rem;
-	margin-bottom: 1.2rem;
+	margin: 0.1rem 0.5rem;
+	margin-bottom: 0.3rem;
 	text-decoration: none;
 	height: 1.2rem;
 	width: 1.2rem;
 	background: white;
-	border-radius:15%;
 	}
 .footer_icons a :hover{
 	background:aqua;
