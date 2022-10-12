@@ -118,4 +118,8 @@ section {
 		height: 95%;
 		margin: 2rem;
 	}
+
+	.card a:hover {
+		transform: scale(1.01);
+	}
 }
